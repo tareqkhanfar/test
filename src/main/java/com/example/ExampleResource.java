@@ -11,6 +11,12 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello from RESTEasy Reactive oinrgewi;gnoerw;wrewhretbdfhtretthtrh";
+        return "Hello from RESTEasy Reactive";
+    }
+    @GET
+    @Path("345")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String helloo() {
+        return "Hello from RESTEasy Reactive";
     }
 }
