@@ -17,6 +17,6 @@ public class ExampleResource {
     @Path("345")
     @Produces(MediaType.TEXT_PLAIN)
     public String helloo() {
-        return "Hello from RESTEasy ReactiveKHanfar123";
+        return "Hello from RESTEasy ReactiveKHanfar1234567";
     }
 }
